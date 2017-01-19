@@ -20,7 +20,9 @@ nav {
   height: 75px;
   text-align: center;
 }
-
+div {
+  margin: auto;
+}
 nav: hover {
   color: red;
 }
@@ -35,12 +37,14 @@ section {
 
 aside {
 background-color: white;
-flex-grow: 1;
+width: 33%;
+height: 100%;
 }
 
 main {
 background-color: green;
-flex-grow: 3;
+width: 66%;
+height: 100%;
 }
 
 footer {
